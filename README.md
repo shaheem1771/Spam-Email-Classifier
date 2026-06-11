@@ -1,6 +1,8 @@
-# Spam Email Classifier
+# 📧 Spam Email Classifier
 
 A Machine Learning project that classifies SMS/Email messages as **Spam** or **Ham (Not Spam)** using Natural Language Processing and the Naive Bayes algorithm.
+
+🚀 **Live Demo:** [Try the app here](https://zwfndsnga.streamlit.app)
 
 -----
 
@@ -28,6 +30,8 @@ Spam detection is one of the most practical applications of Machine Learning in 
 - Scikit-learn
 - TF-IDF Vectorization
 - Multinomial Naive Bayes
+- Streamlit (Deployment)
+- Google Colab
 
 -----
 
@@ -63,9 +67,24 @@ TF-IDF (Term Frequency–Inverse Document Frequency) converts raw text into nume
 Spam-Email-Classifier
 │
 ├── Spam_Email_Classifier_Project.ipynb   # Main notebook
-├── requirements.txt                       # Dependencies
+├── app.py                                # Streamlit web app
+├── model.pkl                             # Trained model
+├── vectorizer.pkl                        # TF-IDF vectorizer
+├── requirements.txt                      # Dependencies
 └── README.md
 ```
+
+-----
+
+## Live Demo
+
+The project is deployed as an interactive web app using **Streamlit**.
+
+🔗 <https://zwfndsnga.streamlit.app>
+
+- Enter any message in the text box
+- Click **Check**
+- Instantly see if it’s **🚨 SPAM** or **✅ Ham**
 
 -----
 
@@ -84,7 +103,6 @@ Spam-Email-Classifier
 - Try Support Vector Machine (SVM) for comparison
 - Add word cloud visualization for spam vs. ham messages
 - Handle class imbalance with oversampling (SMOTE)
-- Deploy as a web app using Streamlit
 
 -----
 
