@@ -2,7 +2,7 @@
 
 A Machine Learning project that classifies SMS/Email messages as **Spam** or **Ham (Not Spam)** using Natural Language Processing and the Naive Bayes algorithm.
 
-🚀 **Live Demo:** [Try the app here](https://zwfndsnga.streamlit.app)
+🚀 **Live Demo:** [Try the app here](https://spam-email-classifier-h.streamlit.app)
 
 -----
 
@@ -80,7 +80,7 @@ Spam-Email-Classifier
 
 The project is deployed as an interactive web app using **Streamlit**.
 
-🔗 <https://zwfndsnga.streamlit.app>
+🔗 <https://spam-email-classifier-h.streamlit.app>
 
 - Enter any message in the text box
 - Click **Check**
