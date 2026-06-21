@@ -1,6 +1,6 @@
 # 📧 Spam Email Classifier
 
-A Machine Learning project that classifies SMS/Email messages as **Spam** or **Ham (Not Spam)** using Natural Language Processing and the Naive Bayes algorithm.
+A Machine Learning project that classifies SMS/Email messages as **Spam** or **Ham (Not Spam)** using Natural Language Processing  and the Naive Bayes algorithm.
 
 🚀 **Live Demo:** [Try the app here](https://spam-email-classifier-h.streamlit.app)
 
